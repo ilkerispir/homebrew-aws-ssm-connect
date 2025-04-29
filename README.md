@@ -1,2 +1,1 @@
-# homebrew-aws-ssm-rds-proxy
-Homebrew tap for aws-ssm-rds-proxy
+# homebrew-aws-ssm-tunnel
