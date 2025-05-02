@@ -7,7 +7,7 @@ class AwsSsmTunnel < Formula
       url "https://github.com/ilkerispir/aws-ssm-tunnel/releases/download/v0.0.2/aws-ssm-tunnel-darwin-amd64.tar.gz"
       sha256 "4bc284301ba013af5ce5a8203408250c71e924343d3264a52de8a769fa49840b"
     elsif Hardware::CPU.arm?
-      url "hhttps://github.com/ilkerispir/aws-ssm-tunnel/releases/download/v0.0.2/aws-ssm-tunnel-darwin-arm64.tar.gz"
+      url "https://github.com/ilkerispir/aws-ssm-tunnel/releases/download/v0.0.2/aws-ssm-tunnel-darwin-arm64.tar.gz"
       sha256 "2766c57ee488a977515e206108a465449779b4d997a8e9944b4205dbf3adae22"
     end
   end
