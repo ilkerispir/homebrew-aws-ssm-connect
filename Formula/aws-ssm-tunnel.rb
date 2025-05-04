@@ -4,15 +4,15 @@ class AwsSsmTunnel < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ilkerispir/aws-ssm-tunnel/releases/download/v0.0.5/aws-ssm-tunnel-darwin-amd64.tar.gz"
-      sha256 "e2e18af154dab6fad0cf103c31844ce35d74e4c325aea9d57a8028220204e77d"
+      url "https://github.com/ilkerispir/aws-ssm-tunnel/releases/download/v0.0.6/aws-ssm-tunnel-darwin-amd64.tar.gz"
+      sha256 "a5d7e4e05106f174428a543a7801c22eadee9169ba58a871187bfcd627d20357"
     elsif Hardware::CPU.arm?
-      url "https://github.com/ilkerispir/aws-ssm-tunnel/releases/download/v0.0.5/aws-ssm-tunnel-darwin-arm64.tar.gz"
-      sha256 "6e57fee7427d83e9e2c275338b487afabff470f93213fe5acfa9c9fc080a947e"
+      url "https://github.com/ilkerispir/aws-ssm-tunnel/releases/download/v0.0.6/aws-ssm-tunnel-darwin-arm64.tar.gz"
+      sha256 "a9a66aedae59c57b6b80e1eb87258c464611711a66e7a43e0a0b60323a578eb7"
     end
   end
 
-  version "v0.0.5"
+  version "v0.0.6"
 
   def install
     bin.install "aws-ssm-tunnel"
