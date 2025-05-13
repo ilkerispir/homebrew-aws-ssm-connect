@@ -1,1 +1,1 @@
-# homebrew-aws-ssm-tunnel
+# homebrew-aws-ssm-connect
