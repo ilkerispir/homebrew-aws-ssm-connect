@@ -1,4 +1,4 @@
-class AwsSsmTunnel < Formula
+class AwsSsmConnect < Formula
   desc "CLI tool to tunnel into RDS & ElastiCache over SSM-managed EC2 instances"
   homepage "https://github.com/ilkerispir/aws-ssm-connect"
 
