@@ -4,15 +4,15 @@ class AwsSsmTunnel < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ilkerispir/aws-ssm-connect/releases/download/v1.0.0/aws-ssm-connect-darwin-amd64.tar.gz"
-      sha256 "cab86c177dacd566305ef0d5aecc37829cec8eff51a8793456f3c5a963120c01"
+      url "https://github.com/ilkerispir/aws-ssm-connect/releases/download/v1.0.1/aws-ssm-connect-darwin-amd64.tar.gz"
+      sha256 "32e09db295edf7efb1c27dddabb3519c628dfea3ec94d63e5879cdf8833d46e5"
     elsif Hardware::CPU.arm?
-      url "https://github.com/ilkerispir/aws-ssm-connect/releases/download/v1.0.0/aws-ssm-connect-darwin-arm64.tar.gz"
-      sha256 "cf589c375edd405c474573c93dfba56a76e49f5335e08b553c2180a195189034"
+      url "https://github.com/ilkerispir/aws-ssm-connect/releases/download/v1.0.1/aws-ssm-connect-darwin-arm64.tar.gz"
+      sha256 "2570ed407bb6584cd0b61d7804336384d1e0153bd8c7cbadd7fc4a7f2cc61511"
     end
   end
 
-  version "v1.0.0"
+  version "v1.0.1"
 
   def install
     bin.install "aws-ssm-connect"
